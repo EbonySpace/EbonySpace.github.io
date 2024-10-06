@@ -1,1 +1,40 @@
-
+body{
+  margin: 0;
+  background: #f3f8ff;
+  color: #444;
+  text-align: center;
+}
+a{
+  color: #f44;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 20vh auto 0 auto;
+}
+.title{
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px 8px 0 0;
+}
+.context{
+  background: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 0 0 8px 8px;
+  word-break: break-all;
+}
+.copyright{
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  font-size: 15px;
+  color: #aaa;
+}
